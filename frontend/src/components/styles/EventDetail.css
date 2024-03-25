@@ -1,0 +1,29 @@
+/* styles/EventDetail.css */
+
+.event-detail {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.event-detail h2 {
+  margin-top: 0;
+}
+
+.event-detail p {
+  margin-bottom: 10px;
+}
+
+.event-detail button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.event-detail button:hover {
+  background-color: #0056b3;
+}

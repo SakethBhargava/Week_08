@@ -1,0 +1,35 @@
+/* styles/EventForm.css */
+
+.event-form-container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.event-form-container h2 {
+  text-align: center;
+}
+
+.event-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.event-form-container input,
+.event-form-container textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.event-form-container button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.event-form-container button:hover {
+  background-color: #0056b3;
+}
